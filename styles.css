@@ -836,7 +836,7 @@ section p {
 .slide h4 {
   position: absolute;
   bottom: 15px;          /* 👈 ahora abajo */
-  left: 60%;             /* centrado horizontal */
+  left: 55%;             /* centrado horizontal */
   transform: translateX(-50%);
   font-size: 16px;       /* 👈 más pequeño para que se vea la imagen completa */
   color: #000;           /* 👈 texto en negro */
