@@ -832,3 +832,14 @@ section p {
   padding: 12px 20px;
   border-radius: 8px;
 }
+.slide h4 {
+  position: absolute;
+  bottom: 20px;          /* 👈 ahora abajo */
+  left: 50%;             /* centrado horizontal */
+  transform: translateX(-50%);
+  font-size: 18px;       /* 👈 más pequeño */
+  color: #fff;
+  background: rgba(0,0,0,0.6); /* fondo semitransparente */
+  padding: 6px 12px;
+  border-radius: 6px;
+}
