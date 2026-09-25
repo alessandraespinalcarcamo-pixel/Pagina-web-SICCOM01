@@ -834,12 +834,12 @@ section p {
 }
 .slide h4 {
   position: absolute;
-  bottom: 20px;          /* 👈 ahora abajo */
+  bottom: 15px;          /* 👈 ahora abajo */
   left: 50%;             /* centrado horizontal */
   transform: translateX(-50%);
-  font-size: 18px;       /* 👈 más pequeño */
+  font-size: 16px;       /* 👈 más pequeño */
   color: #fff;
-  background: rgba(0,0,0,0.6); /* fondo semitransparente */
-  padding: 6px 12px;
+  background: rgba(0,0,0,0.5); /* fondo semitransparente para legibilidad */
+  padding: 4px 10px;
   border-radius: 6px;
 }
