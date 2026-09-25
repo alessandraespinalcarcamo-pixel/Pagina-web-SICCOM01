@@ -821,26 +821,15 @@ section p {
   object-fit: cover;    /* recorta manteniendo proporción */
 }
 
-
 .slide h4 {
   position: absolute;
-  bottom: 15px;          /* 👈 abajo de la imagen */
-  left: 59%;             /* 👈 más a la derecha */
-  transform: translateX(-50%);
-  font-size: 16px;       /* tamaño pequeño para no tapar la imagen */
-  color: #000;           /* texto en negro */
-  background: none;      /* sin cuadro */
-  padding: 0;
-}
-
-.slide h4 {
-  position: absolute;
-  bottom: 20px;          /* 👈 abajo de la imagen */
+  top: 50%;              /* 👈 centrado vertical */
   left: 50%;             /* 👈 centrado horizontal */
-  transform: translateX(-50%); /* 👈 asegura el centrado */
-  font-size: 18px;       /* 👈 tamaño moderado */
+  transform: translate(-50%, -50%); /* 👈 asegura el centro exacto */
+  font-size: 24px;       /* 👈 tamaño moderado */
   color: #000;           /* 👈 texto en negro */
   background: none;      /* 👈 sin cuadro */
   padding: 0;
 }
+
 
