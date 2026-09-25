@@ -824,15 +824,15 @@ section p {
 
 .slide h4 {
   position: absolute;
-  bottom: 15px;          /* 👈 ahora abajo */
-  left: 50%;             /* centrado horizontal */
+  bottom: 15px;          /* 👈 abajo de la imagen */
+  left: 70%;             /* 👈 más a la derecha */
   transform: translateX(-50%);
-  font-size: 16px;       /* 👈 más pequeño */
-  color: #fff;
-  background: rgba(0,0,0,0.5); /* fondo semitransparente para legibilidad */
-  padding: 4px 10px;
-  border-radius: 6px;
+  font-size: 16px;       /* tamaño pequeño para no tapar la imagen */
+  color: #000;           /* texto en negro */
+  background: none;      /* sin cuadro */
+  padding: 0;
 }
+
 .slide h4 {
   position: absolute;
   bottom: 15px;          /* 👈 ahora abajo */
