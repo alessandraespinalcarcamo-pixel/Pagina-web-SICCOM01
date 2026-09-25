@@ -856,12 +856,12 @@ section p {
 }
 .slide h4 {
   position: absolute;
-  bottom: 15px;          /* 👈 ahora abajo */
+  bottom: 15px;          /* 👈 lo manda abajo */
   left: 50%;             /* centrado horizontal */
   transform: translateX(-50%);
-  font-size: 16px;       /* 👈 más pequeño para que se vea la imagen completa */
+  font-size: 16px;       /* 👈 más pequeño */
   color: #fff;
-  background: rgba(0,0,0,0.5); /* fondo semitransparente para legibilidad */
-  padding: 4px 10px;
-  border-radius: 6px;
+  background: none;      /* 👈 quita el cuadro gris */
+  padding: 0;            /* sin relleno extra */
 }
+
