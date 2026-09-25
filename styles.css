@@ -817,32 +817,11 @@ section p {
 
 .slide img {
   width: 100%;
-  height: 100%;
+  height: 60%;
   object-fit: cover;    /* recorta manteniendo proporción */
 }
 
-.slide h4 {
-  position: absolute;
-  top: 50%;             /* centrado vertical */
-  left: 50%;            /* centrado horizontal */
-  transform: translate(-50%, -50%);
-  font-size: 36px;
-  color: #fff;
-  background: rgba(0,0,0,0.5);
-  padding: 12px 20px;
-  border-radius: 8px;
-}
-.slide h4 {
-  position: absolute;
-  bottom: 15px;          /* 👈 ahora abajo */
-  left: 50%;             /* centrado horizontal */
-  transform: translateX(-50%);
-  font-size: 16px;       /* 👈 más pequeño */
-  color: #fff;
-  background: rgba(0,0,0,0.5); /* fondo semitransparente para legibilidad */
-  padding: 4px 10px;
-  border-radius: 6px;
-}
+
 .slide h4 {
   position: absolute;
   bottom: 15px;          /* 👈 ahora abajo */
