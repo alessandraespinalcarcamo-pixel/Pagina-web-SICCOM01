@@ -835,12 +835,12 @@ section p {
 
 .slide h4 {
   position: absolute;
-  bottom: 15px;          /* 👈 ahora abajo */
-  left: 80%;             /* centrado horizontal */
-  transform: translateX(-50%);
-  font-size: 16px;       /* 👈 más pequeño para que se vea la imagen completa */
+  bottom: 20px;          /* 👈 abajo de la imagen */
+  left: 50%;             /* 👈 centrado horizontal */
+  transform: translateX(-50%); /* 👈 asegura el centrado */
+  font-size: 18px;       /* 👈 tamaño moderado */
   color: #000;           /* 👈 texto en negro */
   background: none;      /* 👈 sin cuadro */
-  padding: 0;            /* 👈 sin relleno extra */
+  padding: 0;
 }
 
