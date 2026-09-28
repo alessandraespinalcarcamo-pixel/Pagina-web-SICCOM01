@@ -5,7 +5,7 @@ body {
 
 header.inicio {
   height: 100vh;
-  background: url("imag/Fondo.png") no-repeat center center;
+  background: url("imag/Fondo (2).png") no-repeat center center;
   background-size: cover;
   position: relative;
   color: #fff;
@@ -119,7 +119,7 @@ nav ul li a:hover {
 
 /* Botones más pequeños y circulares */
 .botones button {
-  background-color: #938ace;
+  background-color: #e7e55c;
   color: #0e0101;
   border: none;
   padding: 10px 20px;       /* más pequeño */
