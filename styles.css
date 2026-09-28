@@ -874,55 +874,33 @@ section p {
   background: #d35400;       /* tono más oscuro al pasar el mouse */
   transform: scale(1.05);    /* efecto de zoom ligero */
 }
-#contacto {
-  background: #f9f9f9;
-  padding: 40px;
-  text-align: center;
-}
-
-#contacto h2 {
-  font-size: 24px;
-  color: #e67e22;
-  margin-bottom: 10px;
-}
-
-#contacto h3 {
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-
-.datos-contacto p {
-  margin: 8px 0;
-  font-size: 16px;
-}
-
-.datos-contacto a {
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.datos-contacto a:hover {
-  color: #e67e22;
-}
-
 .redes-contacto {
   margin-top: 20px;
 }
 
-.redes-contacto .icono {
-  display: inline-block;
-  margin: 0 8px;
-  color: #fff;
-  background: #e67e22;
-  padding: 8px 12px;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background 0.3s ease;
+.redes-contacto img.icono-red {
+  width: 32px;          /* tamaño del logo */
+  height: 32px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
 }
 
-.redes-contacto .icono:hover {
-  background: #d35400;
+.redes-contacto img.icono-red:hover {
+  transform: scale(1.2); /* efecto zoom al pasar el mouse */
+}
+.redes-contacto {
+  margin-top: 20px;
+}
+
+.redes-contacto img.icono-red {
+  width: 32px;          /* tamaño del logo */
+  height: 32px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.redes-contacto img.icono-red:hover {
+  transform: scale(1.2); /* efecto zoom al pasar el mouse */
 }
 
 
