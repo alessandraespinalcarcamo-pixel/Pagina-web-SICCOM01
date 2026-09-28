@@ -45,7 +45,7 @@ nav ul li a.cta {
 }
 
 nav ul li a:hover {
-  color: #0400ff;
+  color: #ff9900;
 }
 
 .contenido {
@@ -100,7 +100,7 @@ nav ul li a:hover {
 }
 
 .botones button:hover {
-  background-color: #e65c00;
+  background-color: #c46e35;
 }
 
 .ubicacion {
@@ -150,7 +150,7 @@ nav {
   bottom: 10px;         /* distancia desde abajo */
   right: 10px;          /* distancia desde la derecha */
   font-size: 14px;
-  color: #b9b2b2;
+  color: #fdfbfb;
   display: flex;
   align-items: center;
   gap: 8px;             /* espacio entre texto y logo */
