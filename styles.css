@@ -824,11 +824,11 @@ section p {
 .slide h4 {
   position: absolute;
   top: 50%;              /* 👈 centrado vertical */
-  left: 50%;             /* 👈 centrado horizontal */
-  transform: translate(-50%, -50%); /* 👈 asegura el centro exacto */
-  font-size: 24px;       /* 👈 tamaño moderado */
-  color: #000;           /* 👈 texto en negro */
-  background: none;      /* 👈 sin cuadro */
+  right: 20px;           /* 👈 pegado a la derecha */
+  transform: translateY(-50%); /* 👈 asegura el centro exacto vertical */
+  font-size: 20px;       /* tamaño moderado */
+  color: #000;           /* texto en negro */
+  background: none;      /* sin cuadro */
   padding: 0;
 }
 
