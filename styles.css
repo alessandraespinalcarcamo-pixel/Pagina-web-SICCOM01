@@ -846,7 +846,7 @@ section p {
 
 .cta-ubicacion .btn-navegar {
   display: inline-block;
-  background: #e67e22;
+  background: #ec7206;
   color: #fff;
   padding: 10px 18px;
   border-radius: 6px;
@@ -856,7 +856,23 @@ section p {
 }
 
 .cta-ubicacion .btn-navegar:hover {
-  background: #d35400;
+  background: #f88132;
+}
+.btn-catalogo {
+  display: inline-block;
+  margin-top: 20px;
+  background: #e67e22;       /* color corporativo */
+  color: #fff;               /* texto blanco */
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-catalogo:hover {
+  background: #d35400;       /* tono más oscuro al pasar el mouse */
+  transform: scale(1.05);    /* efecto de zoom ligero */
 }
 
 
