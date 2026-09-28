@@ -967,5 +967,16 @@ nav {
   background: #e67e22;
   color: #fff;
 }
+.carrusel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+}
+
+.slide {
+  flex: 0 0 100%;
+  text-align: center;
+}
 
 
