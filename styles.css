@@ -924,5 +924,48 @@ nav {
   background: rgba(0,0,0,0.5); /* 👈 negro semitransparente */
   padding: 10px;
 }
+.video-container {
+  margin: 20px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.cta-video {
+  margin-top: 20px;
+}
+
+.btn-naranja {
+  display: inline-block;
+  background: #e67e22;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn-naranja:hover {
+  background: #d35400;
+}
+
+.btn-blanco {
+  display: inline-block;
+  background: #fff;
+  color: #333;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #e67e22;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-blanco:hover {
+  background: #e67e22;
+  color: #fff;
+}
 
 
