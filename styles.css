@@ -846,8 +846,8 @@ section p {
 
 .cta-ubicacion .btn-navegar {
   display: inline-block;
-  background: #ec7206;
-  color: #fff;
+  background: #ff9232;
+  color: #0f0f0f;
   padding: 10px 18px;
   border-radius: 6px;
   text-decoration: none;
@@ -856,7 +856,7 @@ section p {
 }
 
 .cta-ubicacion .btn-navegar:hover {
-  background: #f88132;
+  background: #f5e12f;
 }
 .btn-catalogo {
   display: inline-block;
